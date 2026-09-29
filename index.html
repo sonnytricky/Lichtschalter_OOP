@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <title>OOP Lichtschalter</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                padding: 20px;
+                text-align: center;
+            }
+            .card {
+                border: 1px solid #ccc;
+                padding: 20px;
+                width: 250px;
+                margin: 0 auto;
+                border-radius: 8px;
+            }
+            .status-box {
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin: 15px 0;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .aus {
+                background-color: #eee;
+                color: #555;
+            }
+            .an {
+                background-color: #ffe066;
+                color: #333;
+            }
+            button {
+                padding: 10px 15px;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h3 id="lampen-name">Wohnzimmer-Lampe</h3>
+            <div id="status-anzeige" class="status-box aus">AUS</div>
+            <button id="toggle-btn">Einschalten</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
