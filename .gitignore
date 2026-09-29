@@ -1,0 +1,39 @@
+##############################################
+# Alles ignorieren                               # * bedeutet alles
+##############################################
+*
+
+##############################################
+# Verzeichnisse wieder erlauben
+##############################################
+!*/
+
+##############################################
+# Ordner ignorieren
+##############################################
+# /.Releases/
+# *.Releases/
+# !*/.Releases/
+# /.aLT/
+# *.aLT/
+# !*/.aLT/
+
+##############################################
+# Verzeichnisse wieder erlauben                  # !*/Unterordner/
+##############################################
+
+
+
+
+##############################################
+# Ausnahme: diese Dateien NICHT ignorieren
+##############################################
+# Beispiel:
+# - für Dateien in Unterordnern                  # !/Pfad/zur/Datein.txt
+# - für einzelne Dateien                         # !Datein.txt
+##############################################
+!/.gitignore
+!/index.html
+!/script.js
+
+
